@@ -1,6 +1,5 @@
 body {
   font-family: 'Montserrat', sans-serif;
-
 }
 
 h1 {
@@ -24,7 +23,7 @@ i:hover {
 }
 
 .navbar {
-  padding-bottom: 4.5rem;
+  padding: 0 0 4.5rem;
 }
 
 .nav-item {
@@ -33,6 +32,10 @@ i:hover {
 
 .nav-link {
   font-size: 1.2rem;
+}
+
+.btn-position {
+  margin: 5%;
 }
 
 .center {
@@ -59,7 +62,82 @@ i:hover {
   white-space: nowrap;
 }
 
+/* title section */
 #title {
   background-color: #ff4c68;
   color: white;
+
+}
+
+.img-title {
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+  color: white;
+  text-align: center;
+}
+
+#features {
+  position: relative;
+  background-color: white;
+
+}
+
+#press {
+  padding: 5% 5%;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.img-testimonials {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.logo-press {
+  background-color: #ef8172;
+  width: 20%;
+  padding: 3%;
+}
+
+.cta-h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.footer-icon {
+  margin : 1.5%;
+}
+
+@media screen (max_width: 500px) {
+  .img-title {
+    width: 10%;
+    transform: rotate(0deg);
+    position: static;
+  }
+
+  #title {
+    text-align: left;
+  }
 }
